@@ -1,8 +1,6 @@
 -- Prática 03 de Haskell
 -- Nome: Fernando Kalikosque Laydner Júnior
 
-import Data.Char
-
 --1
 add10toall :: [Int] -> [Int]
 add10toall lista = [x + 10 | x <- lista]
